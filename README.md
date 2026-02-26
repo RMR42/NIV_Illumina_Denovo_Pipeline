@@ -275,7 +275,7 @@ Trims adapters and low-quality bases from paired-end reads. Parameters used:
 - Deduplication: `--dedup`
 - Automatic adapter detection: `--detect_adapter_for_pe`
 
-### BBNorm / BBTools (v39.76)
+### BBNorm / BBTools (v39.06)
 Normalizes read depth to reduce uneven coverage, which improves assembly quality for viral genomes with variable sequencing depth. Parameters used:
 - Target depth: `target=40`
 - Minimum depth threshold: `mindepth=5`
