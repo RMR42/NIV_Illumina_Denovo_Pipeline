@@ -1,5 +1,10 @@
 # Viral Short-Read Assembly Pipeline
 
+![Nextflow](https://img.shields.io/badge/nextflow-%E2%89%A523.04-brightgreen)
+![Platforms](https://img.shields.io/badge/platform-Linux%20%7C%20macOS-blue)
+![License](https://img.shields.io/badge/license-MIT-orange)
+![Conda](https://img.shields.io/badge/conda-supported-green)
+
 A [Nextflow](https://www.nextflow.io/) DSL2 pipeline for *de novo* assembly of viral genomes from Illumina paired-end short reads. The pipeline performs quality control, adapter trimming, optional read depth normalization, genome assembly, and assembly quality assessment.
 
 Developed at **ICMR – National Institute of Virology, Pune**, under the High Performance Computing facility **NAKSHATRA** (PM-ABHIM Grant No. VIR/35/2022/ECD-1).
