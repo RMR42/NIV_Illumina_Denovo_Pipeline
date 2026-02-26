@@ -90,7 +90,7 @@ Raw FASTQ reads (paired-end)
 
 ```bash
 git clone https://github.com/RMR42/NIV_Illumina_Denovo_Pipeline.git
-cd viral-assembly-pipeline
+cd NIV_Illumina_Denovo_Pipeline
 ```
 
 ### Step 2 — Create the Nextflow launcher environment (one time only)
