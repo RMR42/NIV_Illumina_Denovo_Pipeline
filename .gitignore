@@ -1,0 +1,12 @@
+work/
+.nextflow/
+.nextflow.log*
+results/
+pipeline_params.json
+execution_opts.json
+run_output.txt
+*.log
+.conda-cache/
+__pycache__/
+*.pyc
+.DS_Store
