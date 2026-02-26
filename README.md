@@ -100,22 +100,9 @@ This creates a minimal conda environment containing Nextflow and its dependencie
 ```bash
 conda env create -f envs/nextflow.yml
 ```
-
-This only needs to be done **once**. The environment persists across sessions.
-
-### Step 3 — Activate the environment before each session
-
-```bash
-conda activate nextflow-launcher
-```
-
-> You must activate this environment every time you open a new terminal before running the pipeline.
-
-### Step 4 — (First pipeline run only) Build the tools environment
-
-On the first run with `-profile conda`, Nextflow will automatically create a second conda environment containing all pipeline tools (FastQC, fastp, SPAdes, BBTools, QUAST). This takes approximately **5–10 minutes** and is cached for all future runs — subsequent runs start immediately.
-
-No manual action is needed for this step.
+> On the first run, Nextflow will automatically build a second conda environment
+> containing all pipeline tools. This takes 5–10 minutes and is cached for all
+> future runs.
 
 ---
 
@@ -321,7 +308,7 @@ viral-assembly-pipeline/
 
 If you use this pipeline in your research, please cite:
 
-> Raju, R. *et al.* (2025). *Viral Short-Read Assembly Pipeline* (v1.0.0). ICMR – National Institute of Virology, Pune. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> Raju, R.M.,Singh, SR.,Ashraf, A.F.,Madiwal, K.,Sarah S Cherian. De novo assembly pipeline for short read viral genomes. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
 
 Please also cite the individual tools used:
 
