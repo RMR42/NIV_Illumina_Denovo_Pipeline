@@ -310,8 +310,7 @@ viral-assembly-pipeline/
 │   ├── norm.nf               # Read depth normalization
 │   ├── spades_assembly.nf    # De novo assembly
 │   └── quast.nf              # Assembly QC
-├── test_data/                # Small synthetic FASTQ files for testing
-├── CITATION.cff              # Machine-readable citation metadata
+├── trial/                    # Small synthetic FASTQ files for testing
 ├── LICENSE                   # MIT License
 └── README.md                 # This file
 ```
