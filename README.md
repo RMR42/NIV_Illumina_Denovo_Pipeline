@@ -89,7 +89,7 @@ Raw FASTQ reads (paired-end)
 ### Step 1 — Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/viral-assembly-pipeline.git
+git clone https://github.com/RMR42/NIV_Illumina_Denovo_Pipeline.git
 cd viral-assembly-pipeline
 ```
 
