@@ -1,0 +1,11 @@
+name: viral_assembly
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - fastqc=0.12.1
+  - fastp=1.1.0
+  - spades=4.2.0
+  - bbmap=39.06
+  - quast=5.3.0

@@ -1,0 +1,66 @@
+/home/netweb/Downloads/denovo_testing_github/work/conda/env-33db2c1c27e6004920889dfd07a23612/bin/quast.py -o quast_results/NIVCOV24662_S32 --min-identity 80 contigs.fasta
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-6.8.0-100-generic-x86_64-with-glibc2.35 (linux_64)
+  Python version: 3.13.12
+  CPUs number: 16
+
+Started: 2026-02-26 15:02:51
+
+Logging to /home/netweb/Downloads/denovo_testing_github/work/aa/fb2b142b70cb03fe0a6845237a7f32/quast_results/NIVCOV24662_S32/quast.log
+NOTICE: Maximum number of threads is set to 4 (use --threads option to set it manually)
+
+CWD: /home/netweb/Downloads/denovo_testing_github/work/aa/fb2b142b70cb03fe0a6845237a7f32
+Main parameters: 
+  MODE: default, threads: 4, min contig length: 500, min alignment length: 65, min alignment IDY: 80.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  contigs.fasta ==> contigs
+
+2026-02-26 15:02:52
+Running Basic statistics processor...
+  Contig files: 
+    contigs
+  Calculating N50 and L50...
+    contigs, N50 = 26623, L50 = 1, auN = 20568.6, Total length = 35007, GC % = 40.07, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/netweb/Downloads/denovo_testing_github/work/aa/fb2b142b70cb03fe0a6845237a7f32/quast_results/NIVCOV24662_S32/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/netweb/Downloads/denovo_testing_github/work/aa/fb2b142b70cb03fe0a6845237a7f32/quast_results/NIVCOV24662_S32/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/netweb/Downloads/denovo_testing_github/work/aa/fb2b142b70cb03fe0a6845237a7f32/quast_results/NIVCOV24662_S32/basic_stats/GC_content_plot.pdf
+  Drawing contigs GC content plot...
+    saved to /home/netweb/Downloads/denovo_testing_github/work/aa/fb2b142b70cb03fe0a6845237a7f32/quast_results/NIVCOV24662_S32/basic_stats/contigs_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /home/netweb/Downloads/denovo_testing_github/work/aa/fb2b142b70cb03fe0a6845237a7f32/quast_results/NIVCOV24662_S32/basic_stats/coverage_histogram.pdf
+  Drawing contigs coverage histogram (bin size: 1x)...
+    saved to /home/netweb/Downloads/denovo_testing_github/work/aa/fb2b142b70cb03fe0a6845237a7f32/quast_results/NIVCOV24662_S32/basic_stats/contigs_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-02-26 15:02:52
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2026-02-26 15:02:52
+RESULTS:
+  Text versions of total report are saved to /home/netweb/Downloads/denovo_testing_github/work/aa/fb2b142b70cb03fe0a6845237a7f32/quast_results/NIVCOV24662_S32/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/netweb/Downloads/denovo_testing_github/work/aa/fb2b142b70cb03fe0a6845237a7f32/quast_results/NIVCOV24662_S32/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/netweb/Downloads/denovo_testing_github/work/aa/fb2b142b70cb03fe0a6845237a7f32/quast_results/NIVCOV24662_S32/report.html
+  PDF version (tables and plots) is saved to /home/netweb/Downloads/denovo_testing_github/work/aa/fb2b142b70cb03fe0a6845237a7f32/quast_results/NIVCOV24662_S32/report.pdf
+  Icarus (contig browser) is saved to /home/netweb/Downloads/denovo_testing_github/work/aa/fb2b142b70cb03fe0a6845237a7f32/quast_results/NIVCOV24662_S32/icarus.html
+  Log is saved to /home/netweb/Downloads/denovo_testing_github/work/aa/fb2b142b70cb03fe0a6845237a7f32/quast_results/NIVCOV24662_S32/quast.log
+
+Finished: 2026-02-26 15:02:52
+Elapsed time: 0:00:01.140147
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
